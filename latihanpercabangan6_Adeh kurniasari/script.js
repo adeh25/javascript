@@ -19,7 +19,7 @@ if (menu <= 4) {
 
 console.log();
 
-let hitung;
+ let hitung;
 switch (menu) {
   case "1":
     hitung = angka1 + angka2;
