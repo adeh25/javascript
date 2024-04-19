@@ -55,6 +55,48 @@ delete angka3[1];
 delete angka3[3];
 console.log(angka3);
 
+// METHOD ARRAY
+
+// lenght = untuk menampilkan jumlah isi dari array
+const arr = [3, 5, 7, 9,11];
+
+console.log(arr.length); // 5
+
+// join= untuk menggabungkan isi array mendjadi sebuah setring
+const word = ['K', 'A', 'T', 'A', 'K'];
+const word2 = ["selamat", "datang", "di", "BLk"]
+console.log(word.join(""));
+console.log(word2.join(" "));
+
+// push = untuk menambahkan elemen array di bagian terakhir
+arr.push(13, 15, 17); // bisa menambahkan lebih dari satu elemen
+word.push("B", "E", "R", "A", "C", "U", "N");
+word2.push("Karawang");
+console.log(arr);
+console.log(word.join("") + " \n" + word2.join(" "));
+
+// pop = untuk menghapus elemen teraakhir pada array
+arr.pop();
+console.log(arr);
+
+// unshift = untuk menambahkan elemen di awal array
+arr.unshift(1);
+console.log(arr);
+
+// shift = untuk menghapus elemen pertama pada array
+word.shift();
+console.log(word);
+
+// METHOD ARRAY 2
+
+// slice  = mengambil sebagian dari elemen yang ada (index awal, index akhir)
+const siswa = ["adeh", "ratna", "miftah", "alfi", "janah"]
+
+// slice akan menghasilkan array baru
+const siswa2 = siswa.slice(2, 5)
+console.log(siswa2)
+
+// splice 
 
 
 
