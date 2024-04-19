@@ -23,11 +23,7 @@ let angka4 = []
 console.log(angka[0]); // 1
 console.log(angka[1]); // 3
 
-// cara kedua (recomend)
-for ( let i = 0; i < angka.length; i++){
-    console.log("index ke- " + i + " = " + angka[i] )
-}
-
+// cara kedua (recomended)
 
 // CARA MENAMBAHKAN ISI KE DALAM ARRAY
 angka2[0] = 5;
@@ -96,8 +92,42 @@ const siswa = ["adeh", "ratna", "miftah", "alfi", "janah"]
 const siswa2 = siswa.slice(2, 5)
 console.log(siswa2)
 
-// splice 
+// splice = menyisipkan elemen di index tertentu
+// rumusnya (idxAwal, mau Dihapus berapa, elemen1, elemen2....)
+siswa.splice(2, 0, "siti", "dani")
+console.log(siswa)
 
+// foreach = sama kayak perulangan "for"
+const nilai = [70, 75, 82, 65, 58]
+
+nilai.forEach(function(e, i) {
+    console.log("index ke- " + i + " = " + e)
+})
+
+// sort = untuk mengurutkan array
+console.log(nilai.sort())
+
+// map = memetakan nilai yang ada di dalam array (menghasilkan array baru)
+const dikalidua = nilai.map(function(e){
+    return e * 2
+})
+console.log(dikalidua)
+
+// filter & find (filter = menyaring) (find = menghasilkan satu nilai pertama dari kriteria)
+const bilanganBulat = [2, 3, 1, 7, 6, 9, 11, 8]
+
+// filter
+bilanganBulat.filter(function(e){
+    return e > 5
+})
+console.log(bilanganBulat)
+
+// find
+
+const bilanganBulat2 = bilanganBulat.filter(function(e){
+    return e > 5
+})
+console.log(bilanganBulat2)
 
 
 
