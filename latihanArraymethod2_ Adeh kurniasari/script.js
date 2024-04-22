@@ -23,10 +23,11 @@ const nilai_mahasiswa = [
     no.push([i + 1, nilai_mahasiswa[i], nilai1[i]]);
   }
   
-  console.log("=======================================");
-  console.log("NO\tNilai ujian\tIndex Nilai");
-  console.log("=======================================");
-  
+console.log("==========================================")
+console.log("No\t\tNilai uian\t\tIndex nilai")
+console.log("========================================")
+
+
   no.forEach(function(a) {
     console.log(a.join("\t\t "));
   });
