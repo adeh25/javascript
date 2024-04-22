@@ -31,4 +31,3 @@ console.log("========================================")
   no.forEach(function(a) {
     console.log(a.join("\t\t "));
   });
-  
