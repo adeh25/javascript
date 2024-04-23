@@ -3,7 +3,7 @@ const daftar_barang = [
         kode_barang: "MIE-001",
         nama_produk: "Indomie Goreng",
         harga: 3000,
-        stock: 15
+        stock: 5
     },
     {
         kode_barang: "MIE-002",
